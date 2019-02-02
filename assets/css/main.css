@@ -747,13 +747,7 @@
 /* Basic */
 
 	body {
-		background: rgba(237,211,231,1);
-		background: -moz-linear-gradient(-45deg, rgba(237,211,231,1) 0%, rgba(76,115,143,1) 100%);
-		background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(237,211,231,1)), color-stop(100%, rgba(76,115,143,1)));
-		background: -webkit-linear-gradient(-45deg, rgba(237,211,231,1) 0%, rgba(76,115,143,1) 100%);
-		background: -o-linear-gradient(-45deg, rgba(237,211,231,1) 0%, rgba(76,115,143,1) 100%);
-		background: -ms-linear-gradient(-45deg, rgba(237,211,231,1) 0%, rgba(76,115,143,1) 100%);
-		background: linear-gradient(135deg, rgba(237,211,231,1) 0%, rgba(76,115,143,1) 100%);
+		background: linear-gradient(135deg, rgb(111, 154, 208) 0%, rgb(68, 23, 23) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edd3e7', endColorstr='#4c738f', GradientType=1 );
 
 		background-repeat: repeat, no-repeat;
@@ -1061,6 +1055,7 @@
 	.icon {
 		position: relative;
 		text-decoration: none;
+		color: #000;
 	}
 
 		.icon:before {
@@ -1187,7 +1182,7 @@
 			}
 
 			h2 {
-				font-size: 1.8em;
+				font-size: 1.5em;
 				letter-spacing: -0.015em;
 			}
 
